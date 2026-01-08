@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>SyauBlueprints | About</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
+  <style>
+    :root{--navy:#0F2944;--text:#2E2E2E;--muted:#5c6770;--soft:#F4F6F8;--border:#e6e8eb}
+    *{box-sizing:border-box}
+    body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Arial,sans-serif;color:var(--text);line-height:1.6}
+    .nav{position:sticky;top:0;background:rgba(244,246,248,.92);backdrop-filter: blur(8px);border-bottom:1px solid var(--border)}
+    .nav-inner{max-width:1100px;margin:0 auto;display:flex;justify-content:space-between;align-items:center;padding:12px 18px}
+    .brand{display:flex;align-items:center;gap:10px;font-weight:800;letter-spacing:.6px;color:var(--navy)}
+    .menu{display:flex;gap:14px;flex-wrap:wrap}
+    .menu a{padding:8px 10px;border-radius:999px;text-decoration:none;font-weight:600;color:var(--navy)}
+    .menu a:hover{background:#e9eef4}
+    .active{background:var(--navy);color:#fff !important}
+    .wrap{max-width:1100px;margin:0 auto;padding:46px 18px}
+    h1{color:var(--navy);margin:0 0 10px}
+    .lead{color:var(--muted);max-width:900px;margin:0 0 22px}
+    .grid{display:grid;grid-template-columns:1.1fr .9fr;gap:16px}
+    @media (max-width:900px){.grid{grid-template-columns:1fr}}
+    .card{background:var(--soft);border:1px solid var(--border);border-radius:16px;padding:18px;box-shadow:0 6px 16px rgba(0,0,0,.05)}
+    img{width:100%;border-radius:16px;object-fit:cover}
+    h2{margin:0 0 10px;color:var(--navy);display:flex;align-items:center;gap:10px}
+    .pills{display:flex;flex-wrap:wrap;gap:8px;margin-top:10px}
+    .pill{background:#fff;border:1px solid var(--border);border-radius:999px;padding:6px 10px;font-weight:600;font-size:13px}
+    ul{margin:10px 0 0;padding-left:18px}
+    footer{background:var(--navy);color:#fff;text-align:center;padding:18px;font-size:13px}
+  </style>
+</head>
+<body>
+  <div class="nav">
+    <div class="nav-inner">
+      <div class="brand"><i class="fa-solid fa-compass-drafting"></i> SyauBlueprints</div>
+      <div class="menu">
+        <a href="index.html">Home</a>
+        <a class="active" href="about.html">About</a>
+        <a href="projects.html">Projects</a>
+        <a href="experience.html">Experience</a>
+        <a href="resume.html">Resume</a>
+        <a href="contact.html">Contact</a>
+      </div>
+    </div>
+  </div>
+
+  <main class="wrap">
+    <h1>About Me</h1>
+    <p class="lead">
+      I’m <b>Syaurah</b>, an Engineering with Business graduate with hands-on experience in sustainability projects,
+      operations support, and team-based work. I enjoy turning ideas into practical outcomes — with a sporty, disciplined mindset.
+    </p>
+
+    <div class="grid">
+      <div class="card">
+        <h2><i class="fa-solid fa-user-gear"></i> Professional Profile</h2>
+        <p>
+          Engineering with Business graduate skilled in project coordination, documentation, workflow support, and sustainability thinking.
+          Experienced in fast-paced operations (F&B, logistics, warehousing, events), showing reliability, attention to detail, and adaptability.
+        </p>
+
+        <h2 style="margin-top:18px"><i class="fa-solid fa-dumbbell"></i> Sport & Team Culture</h2>
+        <p>
+          As part of the <b>NYP Women’s Soccer Team</b>, I learned how to communicate clearly, stay calm under pressure,
+          and execute as a team — the same habits needed in project environments.
+        </p>
+
+        <div class="pills">
+          <span class="pill">Teamwork</span><span class="pill">Communication</span><span class="pill">Adaptability</span>
+          <span class="pill">Reliability</span><span class="pill">Problem-Solving</span>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1517649763962-0c623066013b?auto=format&fit=crop&w=1400&q=80" alt="Sporty vibe"/>
+        <h2 style="margin-top:14px"><i class="fa-solid fa-toolbox"></i> Skills Snapshot</h2>
+        <ul>
+          <li><b>Technical:</b> engineering design basics, feasibility thinking, documentation, Excel/PowerPoint</li>
+          <li><b>Business/Ops:</b> budgeting awareness, material planning, workflow support, inventory accuracy</li>
+          <li><b>CCA:</b> School of Engineering Club (event logistics & coordination)</li>
+        </ul>
+      </div>
+    </div>
+  </main>
+
+  <footer>© 2026 SyauBlueprints</footer>
+</body>
+</html>
